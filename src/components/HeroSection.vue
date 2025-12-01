@@ -28,13 +28,7 @@
                         tout en continuant à progresser dans le domaine du
                         développement et du numérique.
                     </p>
-                    <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <button
-                            class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
-                            <span class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-primary
-                            border border-transparent"></span>
-                            <span class="relative flex items-center justify-center text-white">Embauche-moi</span>
-                        </button>
+                    <div class="items-center gap-3 pt-9 sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button
                             class="border border-primary px-6 md:px-7 py-3 rounded-full relative grpoup w-full sm:w-max flex justify-center">
                             <div
