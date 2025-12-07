@@ -58,17 +58,9 @@
                         <div class="absolute z-0 top-1/2 -translate-y-1/2 w-5/6 right-0 h-[calc(80%+20px)] bg-gradient-to-tr opacity-25 from-[#570cac] to-primary blur-2xl"></div>
                         
                         <div class="absolute h-full z-10 p-2 -translate-y-1/2 top-1/2 lg:right-3 md:right-40 sm:right-16 rounded-full shadow-lg border border-primary">
-                            <img src="projects/mypic.jpeg" alt="Steve" width="500" height="auto" loading="lazy"
+                            <img src="/src/assets/mypic.jpeg" alt="Steve" width="500" height="auto" loading="lazy"
                             class="w-full h-full rounded-full object-cover"
                             >
-
-                            <!-- 🔥 Chemin corrigé -->
-                            <img src="/projects/mypic.jpeg"                                  alt="Steve"
-                                 width="500"
-                                 height="auto"
-                                 loading="lazy"
-                                 class="w-full h-full rounded-full object-cover" />
- (fix: add fix LatestProjects and HeroSection)
                         </div>
                     </div>
                 </div>
