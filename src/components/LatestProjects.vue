@@ -32,7 +32,7 @@ const projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: 'projects/rottenmovie.png',
+        image: '/src/assets/rottenmovie.png',
         title: 'Rotten Movie',
         description: 'C\'est une plateforme qui offre une expérience complète pour les cinéphiles. Les utilisateurs peuvent créer un compte, explorer une liste de films, enregistrer leurs favoris et partager leurs opinions en commentant les films.', technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
         technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
@@ -40,7 +40,7 @@ const projects = ref([
     {
         id: 2,
         category: 'web development',
-        image: 'projects/yowl.png',
+        image: '/src/assets/yowl.png',
         title: 'Yowl',
         description: 'Cette plateforme offre un espace d\'échange où les utilisateurs peuvent partager des liens provenant de diverses plateformes et engager des discussions enrichissantes avec la communauté autour de chaque contenu partagé.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
@@ -48,7 +48,7 @@ const projects = ref([
     {
         id: 3,
         category: 'web development',
-        image: 'projects/showtime.png',
+        image: '/src/assets/showtime.png',
         title: 'ShowTime',
         description: 'Cette plateforme permet aux utilisateurs de voir des publications de concerts, s\'enregistrer et se connecter, afin de faire une reservation pour les concerts à venir.',
         technologies: ['Nestjs', 'Hbs', 'MongoDB'],
@@ -56,7 +56,7 @@ const projects = ref([
     {
         id: 4,
         category: 'web development',
-        image: 'projects/freeads.png',
+        image: '/src/assets/freeads.png',
         title: 'FreeAds',
         description: 'Cette plateforme e-commerce, les utilisateurs peuvent placer des commandes et recevoir des notifications.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
@@ -64,7 +64,7 @@ const projects = ref([
     {
         id: 5,
         category: 'mobile app',
-        image: 'projects/mobilreact.jpeg',
+        image: '/src/assets/mobilreact.jpeg',
         title: 'Epicture',
         description: 'c\'est une application conçu avec l\'api de trello, elle permet de gérer des tâches et des projets de manière collaborative.',
         technologies: ['React Native', 'Trello API'],
@@ -72,7 +72,7 @@ const projects = ref([
     {
         id: 6,
         category: 'mobile app',
-        image: 'projects/shopverse.jpeg',
+        image: '/src/assets/shopverse.jpeg',
         title: 'ShopVerse',
         description: 'c\'est une application e-commerce mobile, permet aux vendeurs de créer des boutiques et gérer leurs produits. les clients peuvent également parcourir les produits et effectuer des achats.',
         technologies: ['Flutter', 'Firebase'],
