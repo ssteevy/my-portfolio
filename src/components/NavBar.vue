@@ -40,7 +40,6 @@ const Menu = ref([
     { name: 'A propos de moi', href: '#about' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Projets', href: '#projects' },
-    { name: 'Témoignages', href: '#testimonials' },
     { name: 'Contact', href: '#contact' },
 ]);
 
