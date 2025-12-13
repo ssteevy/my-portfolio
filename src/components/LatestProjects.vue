@@ -29,6 +29,11 @@
 <script setup>
 import { ref, computed } from 'vue';
 import Rotten from '../assets/rottenmovie.png';
+import Yowl from '../assets/yowl.png';
+import ShowTime from '../assets/showtime.png';
+import FreeAds from '../assets/freeads.png';
+import Mobile from '../assets/mobilreact.jpeg';
+import ShopVerse from '../assets/shopverse.jpeg';
 const projects = ref([
     {
         id: 1,
@@ -41,7 +46,7 @@ const projects = ref([
     {
         id: 2,
         category: 'web development',
-        image: '/src/assets/yowl.png',
+        image: Yowl,
         title: 'Yowl',
         description: 'Cette plateforme offre un espace d\'échange où les utilisateurs peuvent partager des liens provenant de diverses plateformes et engager des discussions enrichissantes avec la communauté autour de chaque contenu partagé.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
@@ -49,7 +54,7 @@ const projects = ref([
     {
         id: 3,
         category: 'web development',
-        image: '/src/assets/showtime.png',
+        image: ShowTime,
         title: 'ShowTime',
         description: 'Cette plateforme permet aux utilisateurs de voir des publications de concerts, s\'enregistrer et se connecter, afin de faire une reservation pour les concerts à venir.',
         technologies: ['Nestjs', 'Hbs', 'MongoDB'],
@@ -57,7 +62,7 @@ const projects = ref([
     {
         id: 4,
         category: 'web development',
-        image: '/src/assets/freeads.png',
+        image: FreeAds,
         title: 'FreeAds',
         description: 'Cette plateforme e-commerce, les utilisateurs peuvent placer des commandes et recevoir des notifications.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
@@ -65,7 +70,7 @@ const projects = ref([
     {
         id: 5,
         category: 'mobile app',
-        image: '/src/assets/mobilreact.jpeg',
+        image: Mobile,
         title: 'Epicture',
         description: 'c\'est une application conçu avec l\'api de trello, elle permet de gérer des tâches et des projets de manière collaborative.',
         technologies: ['React Native', 'Trello API'],
@@ -73,7 +78,7 @@ const projects = ref([
     {
         id: 6,
         category: 'mobile app',
-        image: '/src/assets/shopverse.jpeg',
+        image: ShopVerse,
         title: 'ShopVerse',
         description: 'c\'est une application e-commerce mobile, permet aux vendeurs de créer des boutiques et gérer leurs produits. les clients peuvent également parcourir les produits et effectuer des achats.',
         technologies: ['Flutter', 'Firebase'],
