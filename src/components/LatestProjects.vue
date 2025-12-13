@@ -1,8 +1,8 @@
 <template>
-    <section class="text-white mt-20">
+    <section class="text-white mt-20" id="projects">
         <div class="px-4 xl:pl-16">
             <div class="mb-4 md:flex md:justify-between xl:pl-16">
-                <h2 class="text-3xl font-bold text-white">Mes Projets Récents</h2>
+                <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">Mes Projets Récents</h2>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0"> <button class="hover:text-primary capitalize"
                         v-for="category in ['all', 'web development', 'mobile app']" :key="category"
                         @click="selectedCategory = category"> {{ category }} </button> </div>
@@ -32,8 +32,8 @@ import Rotten from '../assets/rottenmovie.png';
 import Yowl from '../assets/yowl.png';
 import ShowTime from '../assets/showtime.png';
 import FreeAds from '../assets/freeads.png';
-import Mobile from '../assets/mobilreact.jpeg';
-import ShopVerse from '../assets/shopverse.jpeg';
+import Mobile from '../assets/Mobile.jpeg';
+import ShopVerse from '../assets/Shopverse.jpeg';
 const projects = ref([
     {
         id: 1,
