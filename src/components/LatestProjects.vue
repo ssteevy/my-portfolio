@@ -28,11 +28,12 @@
 </template>
 <script setup>
 import { ref, computed } from 'vue';
+import Rotten from '../assets/rottenmovie.png';
 const projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: '/src/assets/rottenmovie.png',
+        image: Rotten,
         title: 'Rotten Movie',
         description: 'C\'est une plateforme qui offre une expérience complète pour les cinéphiles. Les utilisateurs peuvent créer un compte, explorer une liste de films, enregistrer leurs favoris et partager leurs opinions en commentant les films.', technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
         technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
