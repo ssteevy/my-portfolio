@@ -28,7 +28,7 @@
                     <div class="flex items-center">
                         <div
                             class="flex-shrink-0 p-2 bg-[#111a3e] w-12 h-12 flex justify-center items-center rounded-full border border-[#111a3e] backdrop-blur-sm">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png" alt="whatsapp"
+                            <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="whatsapp"
                                 class="w-6 h-6">
                         </div>
                         <div class="ml-4">
