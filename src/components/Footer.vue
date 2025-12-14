@@ -5,7 +5,7 @@
                 Steve Duvers
             </div>
             <p class="text-slate-600 text-sm">
-                © Tous droits réservés
+                © All rights reserved
             </p>
         </div>
     </footer>

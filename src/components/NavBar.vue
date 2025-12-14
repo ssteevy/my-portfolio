@@ -37,9 +37,9 @@
 import { ref } from 'vue';
 const Menu = ref([
     { name: 'Services', href: '#services' },
-    { name: 'A propos de moi', href: '#about' },
-    { name: 'Compétences', href: '#skills' },
-    { name: 'Projets', href: '#projects' },
+    { name: 'About', href: '#about' },
+    { name: 'Skills', href: '#skills' },
+    { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' },
 ]);
 

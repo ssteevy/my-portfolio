@@ -2,15 +2,15 @@
     <section class="text-white mt-10" id="contact">
         <h2
             class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500 text-left mb-4 px-4 xl:pl-16">
-            Me contacter</h2>
+            Let's talk</h2>
         <div class="grid md:grid-cols-2 gap-4 md:gap-8 relative px-4 xl:px-16 mt-8" data-aos="zoom-in-up">
             <!-- Section informations de contact -->
             <div class="order-2 md:order-1">
                 <p class="text-[#adb7be] text-sm md:text-base mb-6">
-                    Une question ? Un projet ? Parlons-en !
-                    Je suis toujours ouvert aux nouvelles opportunités et collaborations.
-                    Que vous ayez besoin d'un développeur pour votre équipe ou d'un partenaire
-                    pour concrétiser votre vision, je suis à votre écoute.
+                    A question? A project? Let's talk! 
+                    I'm always open to new opportunities and collaborations. 
+                    Whether you need a developer for your team or a partner
+                    to bring your vision to life, I'm here to listen.
                 </p>
                 <div class="space-y-6">
                     <!-- Email EPITECH affiché publiquement -->
@@ -44,7 +44,7 @@
                                 class="w-6 h-6">
                         </div>
                         <div class="ml-4">
-                            <h4 class="font-semibold text-sm md:text-base">Appel</h4>
+                            <h4 class="font-semibold text-sm md:text-base">Call</h4>
                             <p class="text-[#adb7be] text-xs md:text-sm">+229 01 90 42 60 36</p>
                         </div>
                     </div>
@@ -71,29 +71,29 @@
                 <form action="https://formspree.io/f/mqarnwab" method="POST" @submit.prevent="handleSubmit" class="space-y-4 md:space-y-6">
                     <!-- Email -->
                     <div>
-                        <label for="email" class="text-white block mb-2 text-sm font-medium">Votre E-mail *</label>
+                        <label for="email" class="text-white block mb-2 text-sm font-medium">Your email *</label>
                         <input type="email" id="email" v-model="formData.email"
                             class="bg-blue-950 text-white text-sm rounded-lg block w-full p-2.5 focus:ring-2 focus:ring-primary outline-none transition"
-                            placeholder="votre.email@gmail.com" required>
+                            placeholder="your.email@gmail.com" required>
                     </div>
                     <!-- Objet -->
                     <div>
-                        <label for="subject" class="text-white block mb-2 text-sm font-medium">Objet *</label>
+                        <label for="subject" class="text-white block mb-2 text-sm font-medium">Subject *</label>
                         <input type="text" id="subject" v-model="formData.subject"
                             class="bg-blue-950 text-white text-sm rounded-lg block w-full p-2.5 focus:ring-2 focus:ring-primary outline-none transition"
-                            placeholder="Sujet de votre message" required>
+                            placeholder="Subject of your message" required>
                     </div>
                     <!-- Message -->
                     <div>
                         <label for="message" class="text-white block mb-2 text-sm font-medium">Message *</label>
                         <textarea id="message" v-model="formData.message" rows="5"
                             class="bg-blue-950 text-white text-sm rounded-lg block w-full p-2.5 focus:ring-2 focus:ring-primary outline-none transition resize-none"
-                            placeholder="Parlons-nous..." required></textarea>
+                            placeholder="Let's talk" required></textarea>
                     </div>
                     <!-- Bouton d'envoi -->
                     <button type="submit" :disabled="isSubmitting"
                         class="w-full px-6 py-3 rounded-full text-white bg-primary border-2 border-transparent hover:bg-opacity-90 transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center">
-                        <span v-if="!isSubmitting">Envoyer</span>
+                        <span v-if="!isSubmitting">Send</span>
                         <span v-else class="flex items-center">
                             <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24">
@@ -103,7 +103,7 @@
                                     d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
                                 </path>
                             </svg>
-                            Envoi en cours...
+                            Sending in progress…
                         </span>
                     </button>
                     <!-- Message de confirmation -->
@@ -156,9 +156,9 @@ const handleSubmit = async () => {
             })
         })
 
-        if (!response.ok) throw new Error('Erreur lors de l\'envoi')
+        if (!response.ok) throw new Error('Error during sending')
 
-        submitMessage.value = '✓ Message envoyé avec succès ! Je vous répondrai bientôt.'
+        submitMessage.value = '✓ Message sent successfully! I’ll get back to you soon.'
         submitSuccess.value = true
 
         formData.email = ''
@@ -169,7 +169,7 @@ const handleSubmit = async () => {
             submitMessage.value = ''
         }, 5000)
     } catch (error) {
-        submitMessage.value = '✗ Erreur lors de l\'envoi. Veuillez me contacter directement à steve.duvers@epitech.eu'
+        submitMessage.value = '✗ Error while sending. Please contact me directly at steve.duvers@epitech.eu'
         submitSuccess.value = false
         console.error('Erreur:', error)
     } finally {
