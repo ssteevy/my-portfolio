@@ -9,8 +9,8 @@
         <div class="relative flex flex-col md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-10">
             <div class="mb-8 w-full"> 
                 <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500 text-left md:text-center">
-                    My
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">skills</span>
+                    Mes
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Compétences</span>
                 </h2>
                 <div class="mt-8" v-for="skill in Skills" :key="skill.id">
                     <div class="flex items-end justify-between" data-aos="fade-right">
@@ -26,8 +26,8 @@
 
             <div data-aos="flip-left" class="w-full">
                 <h2 class="text-3xl font-bold text-white text-left md:text-center md:mt-0 mt-8">
-                    My
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Experiences</span>
+                    Mes
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">Expériences</span>
                 </h2>
                 <div class="space-y-8 py-8" data-aos="fade-left">
                     <div v-for="element in Experiences" :key="element.id">
@@ -70,25 +70,25 @@ const Skills = ref([
 const Experiences = ref([
     {
         id: 1,
-        role: 'Web and mobile developper',
+        role: 'Développeur web et mobile',
         company: 'Coding Academy EPITECH',
         year: '2025',
     },
     {
         id: 2,
-        role: 'Data entry operators',
+        role: 'Opérateur de saisie',
         company: 'Archives Nationales d\'Haïti',
         year: '2016 - 2018',
     },
     {
         id: 3,
-        role: 'Maintenance technician assistant',
+        role: 'Aide technicien de maintenance informatique',
         company: 'Archives Nationales d\'Haïti',
         year: '2018 - 2019',
     },
     {
         id: 4,
-        role: 'Maintenance technician',
+        role: 'Technicien de maintenance informatique',
         company: 'Archives Nationales d\'Haïti',
         year: '2020 - 2025',
     },

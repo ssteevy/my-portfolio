@@ -2,7 +2,7 @@
     <section class="text-white mt-20" id="projects">
         <div class="px-4 xl:pl-16">
             <div class="mb-4 md:flex md:justify-between xl:pl-16">
-                <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">My recent projects</h2>
+                <h2 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">Mes projets récents</h2>
                 <div class="flex space-x-4 mb-4 mt-5 md:mt-0"> <button class="hover:text-primary capitalize"
                         v-for="category in ['all', 'web development', 'mobile app']" :key="category"
                         @click="selectedCategory = category"> {{ category }} </button> </div>
@@ -40,7 +40,7 @@ const projects = ref([
         category: 'web development',
         image: Rotten,
         title: 'Rotten Movie',
-        description: 'It\'s a platform that offers a complete experience for film enthusiasts. Users can create an account, explore a list of films, save their favorites, and share their opinions by commenting on the movies.', technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
+        description: 'C\'est une plateforme qui offre une expérience complète aux amateurs de cinéma. Les utilisateurs peuvent créer un compte, explorer une liste de films, enregistrer leurs préférés et partager leurs avis en commentant les films.', technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
         technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
     },
     {
@@ -48,7 +48,7 @@ const projects = ref([
         category: 'web development',
         image: Yowl,
         title: 'Yowl',
-        description: 'This platform offers a space for exchange where users can share links from various platforms and engage in enriching discussions with the community around each piece of shared content.',
+        description: 'Cette plateforme offre un espace d\'échange où les utilisateurs peuvent partager des liens provenant de diverses plateformes et participer à des discussions enrichissantes avec la communauté autour de chaque contenu partagé.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
     },
     {
@@ -56,7 +56,7 @@ const projects = ref([
         category: 'web development',
         image: ShowTime,
         title: 'ShowTime',
-        description: 'This platform allows users to view concert listings, register and log in, in order to make a reservation for upcoming concerts.',
+        description: 'Cette plateforme permet aux utilisateurs de consulter les listes de concerts, de s\'inscrire et de se connecter, afin de réserver des places pour les concerts à venir.',
         technologies: ['Nestjs', 'Hbs', 'MongoDB'],
     },
     {
@@ -64,7 +64,7 @@ const projects = ref([
         category: 'web development',
         image: FreeAds,
         title: 'FreeAds',
-        description: 'On this e-commerce platform, users can place orders and receive notifications.',
+        description: 'Sur cette plateforme e-commerce, les utilisateurs peuvent passer des commandes et recevoir des notifications.',
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
     },
     {
@@ -72,7 +72,7 @@ const projects = ref([
         category: 'mobile app',
         image: Mobile,
         title: 'Epicture',
-        description: 'It is an application designed with the Trello API, it allows you to manage tasks and projects collaboratively.',
+        description: 'C\'est une application conçue avec l\'API Trello, elle permet de gérer les tâches et les projets de manière collaborative.',
         technologies: ['React Native', 'Trello API'],
     },
     {
@@ -80,7 +80,7 @@ const projects = ref([
         category: 'mobile app',
         image: ShopVerse,
         title: 'ShopVerse',
-        description: 'It\'s a mobile e-commerce application that allows sellers to create stores and manage their products. Customers can also browse products and make purchases.',
+        description: 'C\'est une application e-commerce mobile qui permet aux vendeurs de créer des magasins et de gérer leurs produits. Les clients peuvent également parcourir les produits et effectuer des achats.',
         technologies: ['Flutter', 'Firebase'],
     },
 ]);

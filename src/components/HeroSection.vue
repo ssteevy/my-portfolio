@@ -13,24 +13,24 @@
                 <div class="lg:py-6">
                     <div class="text-center lg:text-left">
                         <h1 class="pt-2 text-white font-bold text-2xl md:text-2xl lg:text-3xl">
-                            Hello 👋​! I am
+                            Bonjour 👋​! Je suis
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">
                                 Steve Duvers
                             </span>
                         </h1>
                         <p class="text-gray-300 font-semibold">
-                            Full Stack Developer & Computer Network Technician
+                            Développeur Full Stack & Technicien Réseaux Informatiques
                         </p>
                     </div>
 
                     <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        A developer trained at the Epitech Coding Academy,
-                        with a solid foundation in computer networks and
-                        a strong passion for digital technologies. Motivated,
-                        curious, and solution-oriented, I wish to contribute my
-                        skills to an innovative team and contribute to high-impact
-                        projects while continuing to grow in the field of
-                        development and digital technologies.
+                        Je suis développeur formé à l'Epitech Coding Academy,
+                        avec une solide formation en réseaux informatiques et
+                        une grande passion pour les technologies numériques. Motivé,
+                        curieux et orienté solution, je souhaite apporter mes
+                        compétences à une équipe innovante et contribuer à des projets à fort impact
+                        tout en continuant à évoluer dans le domaine du
+                        développement et des technologies numériques.
                     </p>
 
                     <div class="items-center gap-3 pt-9 sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
@@ -48,7 +48,7 @@
                                 </svg>
 
                                 <a href="/resume.pdf" download="Steve-Duvers-Resume.pdf" class="pl-2 text-primary">
-                                    Download my Resume
+                                    Télécharger mon CV
                                 </a>
                             </div>
                         </button>

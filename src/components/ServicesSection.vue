@@ -28,20 +28,20 @@ const services = ref([
     {
         id: 1,
         icon: 'https://img.icons8.com/ios-filled/100/ffffff/google-code.png',
-        name: 'Web developpement',
-        description: 'Creation of modern and responsive websites tailored to your needs!',
+        name: 'Développement Web',
+        description: 'Création de sites web modernes et réactifs adaptés à vos besoins.!',
     },
     {
         id: 2,
         icon: 'https://img.icons8.com/ios-filled/100/ffffff/developer-mode.png',
-        name: 'Mobile developpement',
-        description: 'Design of intuitive and attractive mobile applications.',
+        name: 'Développement Mobile',
+        description: 'Conception d\'applications mobiles intuitives et attrayantes.',
     },
     {
         id: 3,
         icon: 'https://img.icons8.com/ios-filled/100/ffffff/network-cable.png',
-        name: 'Network services',
-        description: 'Installation and maintenance of high-performance cable networks.',
+        name: 'Administration Réseau',
+        description: 'Installation et maintenance de réseaux câblés à haut débit.',
     },
 ]);
 </script>
