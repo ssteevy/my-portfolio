@@ -40,8 +40,31 @@ const BackToTop = defineAsyncComponent(() => import('@/components/BackToTop.vue'
 </script>
 
 <style>
-  *{
+  * {
     scrollbar-width: thin;
-    scrollbar-color: #111827, #f1f1f1;
+    scrollbar-color: #7c3aed #111827;
+  }
+
+  /* Pour webkit browsers (Chrome, Safari, Edge) */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #111827;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #7c3aed, #ec4899);
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom, #8b5cf6, #f472b6);
+  }
+
+  /* Smooth scroll pour toute la page */
+  html {
+    scroll-behavior: smooth;
   }
 </style>

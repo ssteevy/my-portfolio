@@ -13,45 +13,41 @@
                 <div class="lg:py-6">
                     <div class="text-center lg:text-left">
                         <h1 class="pt-2 text-white font-bold text-2xl md:text-2xl lg:text-3xl">
-                            Bonjour 👋​! Je suis
+                            {{ t.hero.greeting }}
                             <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">
-                                Steve Duvers
+                                {{ t.hero.name }}
                             </span>
                         </h1>
                         <p class="text-gray-300 font-semibold">
-                            Développeur Full Stack & Technicien Réseaux Informatiques
+                            {{ t.hero.title }}
                         </p>
                     </div>
 
                     <p class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        Je suis développeur formé à l'Epitech Coding Academy,
-                        avec une solide formation en réseaux informatiques et
-                        une grande passion pour les technologies numériques. Motivé,
-                        curieux et orienté solution, je souhaite apporter mes
-                        compétences à une équipe innovante et contribuer à des projets à fort impact
-                        tout en continuant à évoluer dans le domaine du
-                        développement et des technologies numériques.
+                        {{ t.hero.description }}
                     </p>
 
                     <div class="items-center gap-3 pt-9 sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
-                        <button
-                            class="border border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
-                            <div
-                                class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
-                                <svg class="download-icon" width="18" height="22" viewBox="0 0 18 22" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke="#f59e0b"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path
-                                        d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129 20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213 20.1213C16.6839 19.5587 17 18.7956 17 18V17"
-                                        stroke="#f59e0b" stroke-width="2" stroke-linecap="round" />
-                                </svg>
-
-                                <a href="/resume.pdf" download="Steve-Duvers-Resume.pdf" class="pl-2 text-primary">
-                                    Télécharger mon CV
-                                </a>
-                            </div>
-                        </button>
+                        <a href="/resume.pdf" download="Steve-Duvers-Resume.pdf">
+                            <button
+                                class="border-2 border-primary px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center 
+                                       transform transition-all duration-300 hover:scale-105 hover:bg-primary/10 hover:shadow-lg hover:shadow-primary/50">
+                                <div
+                                    class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative gap-2">
+                                    <svg class="download-icon transition-transform duration-300 group-hover:translate-y-1" width="18" height="22" viewBox="0 0 18 22" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="download-arrow" d="M13 9L9 13M9 13L5 9M9 13V1" stroke="#f59e0b"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M1 17V18C1 18.7956 1.31607 19.5587 1.87868 20.1213C2.44129 20.6839 3.20435 21 4 21H14C14.7956 21 15.5587 20.6839 16.1213 20.1213C16.6839 19.5587 17 18.7956 17 18V17"
+                                            stroke="#f59e0b" stroke-width="2" stroke-linecap="round" />
+                                    </svg>
+                                    <span class="text-primary font-semibold">
+                                        {{ t.hero.downloadCV }}
+                                    </span>
+                                </div>
+                            </button>
+                        </a>
                     </div>
                 </div>
 
@@ -78,5 +74,9 @@
 <script setup>
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { useLanguage } from '@/composables/useLanguage';
+
+const { t } = useLanguage();
+
 AOS.init();
 </script>
