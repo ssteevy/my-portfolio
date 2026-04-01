@@ -161,7 +161,7 @@ const translations = {
         assistant: 'Assistant computer maintenance technician',
         technician: 'Computer maintenance technician',
         company: 'Archives Nationales d\'Haïti',
-        epitech: 'Coding Academy EPITECH',
+        epitech: 'Coding Academy EPITECH',    
       }
     },
     projects: {
