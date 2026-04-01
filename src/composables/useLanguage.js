@@ -51,6 +51,8 @@ const translations = {
         technician: 'Technicien de maintenance informatique',
         company: 'Archives Nationales d\'Haïti',
         epitech: 'Coding Academy EPITECH',
+        internship: 'Stage de 3 mois en développement web et mobile',
+        beg: 'Best Experts-group',
       }
     },
     projects: {
@@ -58,6 +60,15 @@ const translations = {
       all: 'Tous',
       webDev: 'Développement Web',
       mobileApp: 'Application Mobile',
+      viewLink: 'Voir le site',
+      BestMarketBenin: {
+        title: 'Best Market Benin',
+        description: 'C\'est une plateforme e-commerce qui aide les boutiques en ligne à gérer leurs produits, clients et fournisseurs, vérifier les informations importantes, et suivre la gestion de leur magasin depuis un seul endroit.',
+      },
+      BestMarketBenin: {
+        title: 'Best Market Benin',
+        description: 'C\’est la version mobile de la plateforme e-commerce BMB, conçue pour offrir aux boutiques une expérience rapide et intuitive depuis un smartphone. Elle permet de gérer facilement leur boutique en ligne : administrer les produits, suivre les clients et les fournisseurs, consulter les informations essentielles et piloter l’ensemble des activités du magasin depuis un seul endroit..',
+      },
       rottenMovie: {
         title: 'Rotten Movie',
         description: 'C\'est une plateforme qui offre une expérience complète aux amateurs de cinéma. Les utilisateurs peuvent créer un compte, explorer une liste de films, enregistrer leurs préférés et partager leurs avis en commentant les films.',
@@ -78,10 +89,6 @@ const translations = {
         title: 'Epicture',
         description: 'C\'est une application conçue avec l\'API Trello, elle permet de gérer les tâches et les projets de manière collaborative.',
       },
-      shopverse: {
-        title: 'ShopVerse',
-        description: 'C\'est une application e-commerce mobile qui permet aux vendeurs de créer des magasins et de gérer leurs produits. Les clients peuvent également parcourir les produits et effectuer des achats.',
-      }
     },
     contact: {
       title: 'Parlons-nous',
@@ -162,9 +169,18 @@ const translations = {
       all: 'All',
       webDev: 'Web Development',
       mobileApp: 'Mobile App',
+      viewLink: 'View site',
+      BestMarketBenin: {
+        title: 'Best Market Benin',
+        description: 'It is an e-commerce platform that helps online stores manage their products, customers, and suppliers, check important information, and monitor their store operations from a single place.',
+      },
+      BestMarketBenin: {
+        title: 'Best Market Benin',
+        description: 'It is the mobile version of the BMB e-commerce platform, designed to offer shops a fast and intuitive experience from a smartphone. It allows them to easily manage their online store: manage products, track customers and suppliers, access essential information and oversee all store activities from a single location.',
+      },
       rottenMovie: {
         title: 'Rotten Movie',
-        description: 'A platform that offers a complete experience for movie lovers. Users can create an account, explore a list of movies, save their favorites and share their reviews by commenting on movies.',
+        description: 'A platform that offers a complete experience for movie lovers. Users can create an account, explore a list of movies, save their favorites, and share their reviews by commenting on movies.',
       },
       yowl: {
         title: 'Yowl',
@@ -182,10 +198,6 @@ const translations = {
         title: 'Epicture',
         description: 'An application designed with the Trello API, it allows you to manage tasks and projects collaboratively.',
       },
-      shopverse: {
-        title: 'ShopVerse',
-        description: 'A mobile e-commerce application that allows sellers to create stores and manage their products. Customers can also browse products and make purchases.',
-      }
     },
     contact: {
       title: 'Let\'s Talk',

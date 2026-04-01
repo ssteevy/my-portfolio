@@ -34,6 +34,15 @@
                                 class="text-lg font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500 mb-2 transition-all duration-300">
                                 {{ project.title }}</h3>
                             <p class="text-sm text-gray-300 line-clamp-3">{{ project.description }}</p>
+                            <a
+                                v-if="project.url"
+                                :href="project.url"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-block mt-3 text-sm text-primary hover:text-pink-400 transition-colors duration-200"
+                            >
+                                {{ t.projects.viewLink }}
+                            </a>
                         </div>
                     </div>
                 </li>
@@ -44,12 +53,14 @@
 <script setup>
 import { ref, computed } from 'vue';
 import { useLanguage } from '@/composables/useLanguage';
+import bmbweb from '../assets/bmbweb.png';
+import bmbmobile from '../assets/bmbmobile.jpeg';
 import Rotten from '../assets/rottenmovie.png';
 import Yowl from '../assets/yowl.png';
 import ShowTime from '../assets/showtime.png';
 import FreeAds from '../assets/freeads.png';
 import Mobile from '../assets/Mobile.jpeg';
-import ShopVerse from '../assets/Shopverse.jpeg';
+
 
 const { t } = useLanguage();
 
@@ -63,13 +74,30 @@ const projects = computed(() => [
     {
         id: 1,
         category: 'web development',
+        image: bmbweb,
+        title: t.value.projects.BestMarketBenin.title,
+        description: t.value.projects.BestMarketBenin.description,
+        url: 'https://bestmarketbenin.com',
+        technologies: ['Laravel', 'Vue.js', 'PostgreSQL'],
+    },
+    {
+        id: 2,
+        category: 'mobile app',
+        image: bmbmobile,
+        title: t.value.projects.BestMarketBenin.title,
+        description: t.value.projects.BestMarketBenin.description,
+        technologies: ['Flutter', 'Bmbweb API'],
+    },
+    {
+        id: 3,
+        category: 'web development',
         image: Rotten,
         title: t.value.projects.rottenMovie.title,
         description: t.value.projects.rottenMovie.description,
         technologies: ['Nextjs', 'MongoDB', 'TMDB API'],
     },
     {
-        id: 2,
+        id: 4,
         category: 'web development',
         image: Yowl,
         title: t.value.projects.yowl.title,
@@ -77,7 +105,7 @@ const projects = computed(() => [
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
     },
     {
-        id: 3,
+        id: 5,
         category: 'web development',
         image: ShowTime,
         title: t.value.projects.showtime.title,
@@ -85,7 +113,7 @@ const projects = computed(() => [
         technologies: ['Nestjs', 'Hbs', 'MongoDB'],
     },
     {
-        id: 4,
+        id: 6,
         category: 'web development',
         image: FreeAds,
         title: t.value.projects.freeads.title,
@@ -93,20 +121,12 @@ const projects = computed(() => [
         technologies: ['Laravel', 'Vuejs', 'Mysql'],
     },
     {
-        id: 5,
+        id: 7,
         category: 'mobile app',
         image: Mobile,
         title: t.value.projects.epicture.title,
         description: t.value.projects.epicture.description,
         technologies: ['React Native', 'Trello API'],
-    },
-    {
-        id: 6,
-        category: 'mobile app',
-        image: ShopVerse,
-        title: t.value.projects.shopverse.title,
-        description: t.value.projects.shopverse.description,
-        technologies: ['Flutter', 'Firebase'],
     },
 ]);
 

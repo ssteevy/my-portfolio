@@ -78,23 +78,29 @@ const Experiences = computed(() => [
     {
         id: 1,
         role: t.value.skills.experiences.dev,
+        company: t.value.skills.experiences.beg,
+        year: '2026',
+    },
+    {
+        id: 2,
+        role: t.value.skills.experiences.dev,
         company: t.value.skills.experiences.epitech,
         year: '2025',
     },
     {
-        id: 2,
+        id: 3,
         role: t.value.skills.experiences.operator,
         company: t.value.skills.experiences.company,
         year: '2016 - 2018',
     },
     {
-        id: 3,
+        id: 4,
         role: t.value.skills.experiences.assistant,
         company: t.value.skills.experiences.company,
         year: '2018 - 2019',
     },
     {
-        id: 4,
+        id: 5,
         role: t.value.skills.experiences.technician,
         company: t.value.skills.experiences.company,
         year: '2020 - 2025',

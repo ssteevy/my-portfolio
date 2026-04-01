@@ -60,7 +60,6 @@
   - ShowTime
   - FreeAds
   - Epicture
-  - ShopVerse
 
 ##### Contact
 - Titre et description d'accroche
