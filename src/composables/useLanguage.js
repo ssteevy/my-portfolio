@@ -160,6 +160,7 @@ const translations = {
         operator: 'Data entry operator',
         assistant: 'Assistant computer maintenance technician',
         technician: 'Computer maintenance technician',
+        beg: 'Best Experts-group',
         company: 'Archives Nationales d\'Haïti',
         epitech: 'Coding Academy EPITECH',    
       }
