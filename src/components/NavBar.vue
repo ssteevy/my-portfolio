@@ -28,6 +28,7 @@
                         {{ item.name }}
                     </a>
                 </li>
+
                 <!-- Language Switcher -->
                 <li class="transform transition-all duration-300 hover:scale-110">
                     <button 
