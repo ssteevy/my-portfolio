@@ -30,7 +30,7 @@
                         </div>
                         <div class="ml-4">
                             <h4 class="font-semibold text-sm md:text-base group-hover:text-primary transition-colors duration-300">{{ t.contact.whatsapp }}</h4>
-                            <a href="https://wa.me/22901577571" target="_blank" rel="noopener noreferrer" class="text-[#adb7be] text-xs md:text-sm hover:text-primary transition-colors">+229 01 57 75 71 39</a>
+                            <a href="https://wa.me/2290190426036" target="_blank" rel="noopener noreferrer" class="text-[#adb7be] text-xs md:text-sm hover:text-primary transition-colors">+229 01 90 42 60 36</a>
                         </div>
                     </div>
                     <!-- Appel -->
@@ -42,7 +42,7 @@
                         </div>
                         <div class="ml-4">
                             <h4 class="font-semibold text-sm md:text-base group-hover:text-primary transition-colors duration-300">{{ t.contact.phone }}</h4>
-                            <a href="tel:+22901904260" class="text-[#adb7be] text-xs md:text-sm hover:text-primary transition-colors">+229 01 90 42 60 36</a>
+                            <a href="tel:+2290190426036" class="text-[#adb7be] text-xs md:text-sm hover:text-primary transition-colors">+229 01 90 42 60 36</a>
                         </div>
                     </div>
                     <!-- LinkedIn -->
